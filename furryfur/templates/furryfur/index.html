@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <title>Home - Brand</title>
+      {% load static %}
+      <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="{% static '/furryfur/assets/bootstrap/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/fonts/fontawesome-all.min.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/fonts/font-awesome.min.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/fonts/fontawesome5-overrides.min.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/About_us%20Image_card.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/Date-Picker-and-Footer.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/Find_Sitter_without_login.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/form.css' %}">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightpick@1.3.4/css/lightpick.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/Login_Signup.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/Services_Swiper-Slider-Card-1.css' %}">
+      
+      <link rel="stylesheet" href="{% static '/furryfur/assets/css/Services_Swiper-Slider-Card.css' %}">
+   </head>
+   <body id="page-top">
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark bounce animated" id="mainNav" style="opacity: 0.90;height: 50px;background-color: #343a40;">
+         <div class="container">
+            <a class="navbar-brand" data-bs-hover-animate="tada" href="#page-top" style="background-image: url({% static 'furryfur/assets/img/logo.jpeg' %});background-size: 165px;background-repeat: no-repeat;background-position: left;margin-right: 16px;margin-left: -22px;margin-bottom: 6px;padding-bottom: 5px;padding-top: 4px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+            <button
+               data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="margin-top: -8px;padding: 9px;opacity: 1;"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-top: -3px;margin-right: -17px;margin-left: -16px;opacity: 0.90;height: 50px;color: #212529;">
+
+               <ul class="nav navbar-nav ml-auto text-uppercase" data-aos="fade-down" style="padding-left: 15px;opacity: 0.90;background-color: #343a40;">
+
+                  <li class="nav-item" role="presentation" style="margin-right: 0px;width: 136px;"><a class="nav-link d-lg-flex justify-content-lg-center align-items-lg-center" data-bs-hover-animate="tada" href="Find_Sitter.html" style="font-size: 12.5px;margin-top: 4px;height: 44px;letter-spacing: 0;width: 105px;">Find Sitter</a></li>
+                  <li
+                     class="nav-item" role="presentation" style="width: 41px;"><a class="nav-link d-lg-flex justify-content-lg-center align-items-lg-center" data-bs-hover-animate="tada" href="#" style="font-size: 12.5px;margin-top: 4px;height: 44px;width: 45px;letter-spacing: 0;">Home</a></li>
+                  <li class="nav-item"
+                     role="presentation" style="opacity: 1;filter: blur(0px);margin-left: 0px;padding-left: 1px;width: 124px;"><a class="nav-link d-lg-flex justify-content-lg-center align-items-lg-center js-scroll-trigger" data-bs-hover-animate="tada" href="#about" style="opacity: 1;height: 44px;font-size: 12.5px;margin-top: 4px;letter-spacing: 0;width: 138px;">How It Works</a></li>
+                  <li
+                     class="nav-item" role="presentation" style="width: 89px;"><a class="nav-link d-lg-flex justify-content-lg-center align-items-lg-center js-scroll-trigger" data-bs-hover-animate="tada" href="#portfolio" style="margin-top: 4px;font-size: 12.5px;letter-spacing: 0;width: 100px;height: 44px;">About Us</a></li>
+                  <li
+                     class="nav-item" role="presentation" style="width: 74px;"><a class="nav-link d-lg-flex justify-content-lg-center align-items-lg-center js-scroll-trigger" data-bs-hover-animate="tada" href="#services" style="font-size: 12.5px;margin-top: 4px;height: 44px;width: 82px;letter-spacing: 0;">Services</a></li>
+                  
+                  <li
+                     class="nav-item" role="presentation"><a class="nav-link d-lg-flex align-items-lg-center js-scroll-trigger" data-bs-hover-animate="tada" href="#contact" style="font-size: 12.5px;margin-top: 4px;margin-right: -22px;background-size: 19px;background-repeat: no-repeat;letter-spacing: 0;height: 44px;">Contact</a></li>
+                  
+                  {% if error or error == False and message == "display_home" %}
+                     <li class="nav-item" role="presentation" style="width: 115px;"><a class="nav-link d-lg-flex justify-content-lg-center align-items-lg-center js-scroll-trigger" data-bs-hover-animate="tada" href="{% url 'signInSignUp' %}" style="margin-top: 4px;font-size: 12.5px;letter-spacing: 0;height: 44px;width: 125px;">Login/Singup</a></li>
+                  {% else %}
+                     <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'logout' %}" style="font-size: 12.5px;height: 44px;margin-top: 4px;margin-left: 5px;">logout</a></li>                  
+                     <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size: 12.5px;height: 44px;margin-top: 4px;margin-left: 5px;margin-right: -23px;">Profile</a></li>
+                  {% endif %}
+                  <!-- <li class="nav-item" role="presentation"></li> -->
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <header data-aos="fade-down" class="masthead Homepage" style="background-image: url({% static 'furryfur/assets/img/backgroundsaf.jpg' %});">
+         <div class="intro-text">
+            <div class="container-sm w-100 text-center">
+               <h2 class="" style="font-family: 'Amatic SC', cursive;" >Hey Hooman! Yes You!</h2>
+               <label class="abc" style="font-size:20px;">I sniff that you have furrtunately come to the purrfect place!<br>All kinds of services for pet, FurryFur is your best bet!</label>
+            </div>
+         </div>
+         <!--     <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:0px;"> -->
+         <!--         </div> -->
+         <!--     <div class="" style="width: 64%; margin-left: 20%;"> -->
+         <div class="container pb-5">
+            <div class="card fadeInRight" >
+               <div class="card-body">
+                  <div class="text-center">
+                     <label class="abc" style="font-family: 'Amatic SC', cursive;font-size:24px;">I'm here for my</label>   
+                  </div>
+                  <div class=" pet-select text-center">
+                     <div onclick="togglePetSelectType('dog')" class="ml-n3 mr-4">
+                        <img src="https://img.icons8.com/flat_round/50/000000/dog--v1.png" class="w-100"/>
+                     </div>
+                     <div onclick="togglePetSelectType('cat')" class=" ml-5 mr-n3">
+                        <img src="https://img.icons8.com/flat_round/50/000000/cat.png" class="w-100"/>    
+                     </div>
+                  </div>
+                  <div class="service-type mb-2" >
+                     <div class="dog-service-type text-center">
+                        <div onclick="toggleDogServiceType('dog-boarding')" class="aa dog-boarding  selected">
+                           {% load static %}
+                           <img src="{% static 'furryfur/assets/img/Boarding.png' %}"  height="40px" width="40px">
+                           <span class="caption">Boarding</span>
+                        </div>
+                        <div onclick="toggleDogServiceType('house-sitting')" class="bb dog-house-sitting ">
+                           <img src="{% static 'furryfur/assets/img/house_sitting_service.png' %}" width="40px" height="40px">
+                           <span class="caption">House Sitting</span>
+                        </div>
+                        <div onclick="toggleDogServiceType('doggy-day-care')" class="cc doggy-day-care ">
+                           <img src="{% static 'furryfur/assets/img/doggy_day_care_service.png' %}" width="40px" height="40px">
+                           <span class="caption">Day Care</span>
+                        </div>
+                        <div onclick="toggleDogServiceType('dog-walking')" class="dd dog-walking ">
+                           <img src="{% static 'furryfur/assets/img/dog_walking_service.png' %} " width="40px" height="40px">
+                           <span class="caption">Dog Walking</span>
+                        </div>
+                     </div>
+                     <div class="cat-service-type text-center" >
+                        <div onclick="toggleCatServiceType('cat-boarding')" class="aa cat-boarding"><img src="{% static 'furryfur/assets/img/Boarding.png' %}" width="40px" height="40px">
+                           <span class="caption">Boarding</span>
+                        </div>
+                        <div onclick="toggleCatServiceType('cat-house-sitting')" class="bb cat-house-sitting "><img src="{% static 'furryfur/assets/img/house_sitting_service.png' %}" width="40px" height="40px">
+                           <span class="caption">House Sitting</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="dog-service-details">
+                     <div class="dog-boarding-details">
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-map-marker icon"></i>
+                              <input type="text" class="input-field form-control postcode" placeholder="Postcode" >
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space dp">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"></i>
+                              <input class="input-field form-control datepicker date_from" type="text" id="datePickerFrom" placeholder="&nbsp &nbsp From" />
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space dp">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"></i>
+                              <input class="input-field form-control  datepicker date_to" type="text" id="datePickerTo" placeholder="To"/>
+                           </div>
+                        </div>
+                                           
+                           <!-- <input type="date" placeholder="Drop Off"> -->
+                     </div>
+                     <!-- Dog House Sitting Details -->
+                     <div class="dog-house-sitting-details">
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-map-marker icon"> </i>
+                              <input type="text" class="input-field form-control postcode" placeholder="Postcode" >
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"></i>
+                              <input class="input-field form-control datepicker date_from" type="text" id="datePickerFrom2" placeholder="From" />
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"> </i>
+                              <input class="input-field form-control datepicker date_to" type="text" id="datePickerTo2" placeholder="To"/>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="doggy-day-care-details mt-n3">
+                        <div class="" >
+                           <div class="col-xs-8 correct_space" >
+                              <div class="input-icons">
+                                 <i class="fa fa-map-marker icon"> 
+                                 </i>
+                                 <input type="text" class="input-field form-control postcode" placeholder="Postcode" >
+                              </div>
+                           </div>
+                           <div onclick="toggleDoggyDayServiceType('one-time')" class="one-repeat-weekly datepicker " >One Time</div>
+                           <div onclick="toggleDoggyDayServiceType('repeat-weekly')" class="one-repeat-weekly datepicker">Repeat Weekly</div>
+                        </div>
+                        <div class="dog-one-time-doggy-day-care">
+                           <div class="col-xs-8 correct_space">
+                              <div class="input-icons">
+                                 <i class="fa fa-calendar icon2"></i>
+                                 <input class="input-field form-control datepicker date_from" type="text" id="datePickerFrom3" placeholder="From" />
+                              </div>
+                           </div>
+                           <div class="col-xs-8 correct_space">
+                              <div class="input-icons">
+                                 <i class="fa fa-calendar icon"></i>
+                                 <input class="input-field form-control datepicker date_to" type="text" id="datePickerTo3" placeholder="To"/>
+                              </div>
+                           </div>
+                           <!--                             </div> -->
+                        </div>
+                        <div class="dog-walking dog-repeat-weekly-doggy-day-care float-left repeat-weekly">
+                           <div>
+                              <ul class=" mb-3 mt-3 ">
+                                 <li class="neww ml-0">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox1" />
+                                    <label for="myCheckbox1">
+                                       Mon
+                                       <!--       <img src="http://townandcountryremovals.com/wp-content/uploads/2013/10/firefox-logo-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox2" />
+                                    <label for="myCheckbox2">
+                                       Tue
+                                       <!--       <img src="http://tech21info.com/admin/wp-content/uploads/2013/03/chrome-logo-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox3" />
+                                    <label for="myCheckbox3">
+                                       Wed
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox4" />
+                                    <label for="myCheckbox4">
+                                       Thu
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox5" />
+                                    <label for="myCheckbox5">
+                                       Fri
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox6" />
+                                    <label for="myCheckbox6">
+                                       Sat
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3 mr-1">
+                                    <input type="checkbox" class="day-care-select-week" id="myCheckbox7" />
+                                    <label for="myCheckbox7">
+                                       Sun
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                              </ul>
+                           </div>
+                           <!-- <input type="text" placeholder="Mon Tue Wed Thurs Fri Sat Sun"> -->
+                           <div class="col-xs-8 correct_space" >
+                              <div class="input-icons">
+                                 <i class="fa fa-calendar icon2"></i>
+                                 <input class="input-field form-control datepicker mb-0 mt-0 date_from" type="text" id="datePickerFrom5" placeholder="From" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--</div> -->
+                     <div class=" dog-walking-details mt-n3" >
+                        <div class="" >
+                           <div class="col-xs-8 correct_space">
+                              <div class="input-icons">
+                                 <i class="fa fa-map-marker icon"> 
+                                 </i>
+                                 <input type="text" class="input-field form-control postcode" placeholder="Postcode" >
+                              </div>
+                           </div>
+                           <div onclick="toggleDogWalkingServiceType('one-time')" class="one-repeat-weekly datepicker">One Time</div>
+                           <div onclick="toggleDogWalkingServiceType('repeat-weekly')" class="one-repeat-weekly datepicker">Repeat Weekly</div>
+                        </div>
+                        <div class="">
+                           <div class="one-time-dog-walking">
+                              <div class="col-xs-8 correct_space">
+                                 <div class="input-icons">
+                                    <i class="fa fa-calendar icon2"> 
+                                    </i>
+                                    <input class="input-field form-control datepicker date_from" type="text" id="datePickerFrom4" placeholder="From" />
+                                 </div>
+                              </div>
+                              <div class="col-xs-8 correct_space">
+                                 <div class="input-icons">
+                                    <i class="fa fa-calendar icon"> 
+                                    </i>
+                                    <input class="input-field form-control datepicker date_to" type="text" id="datePickerTo4" placeholder="To"/>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dog-walking repeat-weekly-dog-walking float-left repeat-weekly">
+                           <div>
+                              <ul class="mb-3 mt-3">
+                                 <li class="new ml-0">
+                                    <input type="checkbox" class="dog-walking-select-week"  id="myCheckbox8" />
+                                    <label for="myCheckbox8">
+                                       Mon
+                                       <!--       <img src="http://townandcountryremovals.com/wp-content/uploads/2013/10/firefox-logo-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="dog-walking-select-week" id="myCheckbox9" />
+                                    <label for="myCheckbox9">
+                                       Tue
+                                       <!--       <img src="http://tech21info.com/admin/wp-content/uploads/2013/03/chrome-logo-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="dog-walking-select-week" id="myCheckbox10" />
+                                    <label for="myCheckbox10">
+                                       Wed
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="dog-walking-select-week" id="myCheckbox11" />
+                                    <label for="myCheckbox11">
+                                       Thu
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="dog-walking-select-week" id="myCheckbox12" />
+                                    <label for="myCheckbox12">
+                                       Fri
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3">
+                                    <input type="checkbox" class="dog-walking-select-week" id="myCheckbox13" />
+                                    <label for="myCheckbox13">
+                                       Sat
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                                 <li class="neww ml-3 mr-1">
+                                    <input type="checkbox" class="dog-walking-select-week" id="myCheckbox14" />
+                                    <label for="myCheckbox14">
+                                       Sun
+                                       <!--       <img src="http://www.thebusinessofsports.com/wp-content/uploads/2010/10/facebook-icon-200x200.png" /> -->
+                                    </label>
+                                 </li>
+                              </ul>
+                           </div>
+                           <!-- <input type="text" placeholder="Mon Tue Wed Thurs Fri Sat Sun"> -->
+                           <div class="col-xs-8 correct_space" >
+                              <div class="input-icons">
+                                 <i class="fa fa-calendar icon2"> 
+                                 </i>
+                                 <input class="input-field form-control datepicker mb-2 mt-0 date_from" type="text" id="datePickerFrom6" placeholder="From" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--                 </div> -->
+                  <!--                 <div class="dog-weight-container container mt-3"> -->
+                  <!--    Add dog size                  -->
+                  <!--                 </div> -->
+                  <div class="dog-weight-container mb-n4">
+                     <ul class="">
+                        <li class="">
+                           <label>
+                              <input type="radio" name="emotion" id="0_15lbs_dog" class="input-hidden" />
+                              <img src="{% static 'furryfur/assets/img/0_15lbs_dog.png' %}" width="40px" height="40px" alt="I'm sad"/> <br>
+                              <p class="text-wrap" style="font-size: smaller;">0-15lbs</p>
+                           </label>
+                        </li>
+                        <li class="">
+                           <label>
+                              <input type="radio" name="emotion" id="16_40lbs_dog" class="input-hidden" />
+                              <img src="{% static 'furryfur/assets/img/16_40lbs_dog.png' %}" width="40px" height="40px" alt="I'm happy"/> <br>
+                              <p class=" text-wrap" style="font-size: smaller;">16-40lbs</p>
+                           </label>
+                        </li>
+                        <li class="">
+                           <label>
+                              <input type="radio" name="emotion" id="41_100lbs_dog" class="input-hidden" />
+                              <img src="{% static 'furryfur/assets/img/41_100lbs_dog.png' %}" width="40px" height="40px" alt="I'm happy" /> <br>
+                              <p class=" text-wrap" style="font-size: smaller;">41-100lbs</p>
+                           </label>
+                        </li>
+                        <li class="">
+                           <label>
+                              <input type="radio" name="emotion" id="100lbs_plus_dog" class="input-hidden" />
+                              <img src="{% static 'furryfur/assets/img/100lbs_plus_dog.png' %}" width="40px" height="40px" alt="I'm happy" /> <br>
+                              <p class="text-wrap" style="font-size: smaller;">100lbs+</p>
+                           </label>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="cat-service-details" >
+                     <div class="cat-boarding-details">
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-map-marker icon"> 
+                              </i>
+                              <input type="text" class="input-field form-control postcode" placeholder="Postcode" >
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"> </i>
+                              <input class="input-field form-control datepicker date_from" type="text" id="datePickerFrom7" placeholder="From" />
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"> </i>
+                              <input class="input-field form-control  datepicker date_to" type="text" id="datePickerTo7" placeholder="To"/>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cat-house-sitting-details">
+                        <div class="col-xs-8 correct_space w-0">
+                           <div class="input-icons">
+                              <i class="fa fa-map-marker icon"> 
+                              </i>
+                              <input type="text" class="input-field form-control postcode" placeholder="Postcode" >
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"> </i>
+                              <input class="input-field form-control datepicker date_from" type="text" id="datePickerFrom8" placeholder="From" />
+                           </div>
+                        </div>
+                        <div class="col-xs-8 correct_space">
+                           <div class="input-icons">
+                              <i class="fa fa-calendar icon2"> </i>
+                              <input class="input-field form-control  datepicker date_to" type="text" id="datePickerTo8" placeholder="To"/>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="container mt-4">
+                     <button class="btn-primary w-50 pt-2 pb-2" style="border-radius: 8px; border: none; cursor: pointer;" onclick="search()">Search</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section data-aos="fade-down" id="about" class="HowItWorks">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="text-uppercase" style="margin-top: -102px;font-family: 'Amatic SC', cursive;">How It Works</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12" style="margin-top: -31px;">
+                  <ul class="list-group timeline">
+                     <li class="list-group-item" data-aos="fade-right" style="margin-bottom: 20px;">
+                        <div class="timeline-image" style="background-repeat: no-repeat;background-size: cover;background-color: rgb(18,202,214);"><img class="rounded-circle img-fluid" data-bs-hover-animate="tada" src="{% static '/furryfur/assets/img/profile_icon.png' %}"></div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4 class="text-left"><strong>Create a Free Profile</strong><br></h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-left text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="list-group-item timeline-inverted" data-aos="fade-left" style="margin-bottom: 20px;">
+                        <div class="timeline-image" style="background-color: rgb(18,202,214);"><img class="rounded-circle img-fluid" data-bs-hover-animate="tada" src="{% static '/furryfur/assets/img/pet%20profile.png' %}"></div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4 class="subheading"><strong>Your Pets Details</strong></h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-left text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="list-group-item" data-aos="fade-right" style="margin-bottom: 20px;">
+                        <div class="timeline-image" style="background-color: rgb(18,202,214);"><img class="rounded-circle img-fluid" data-bs-hover-animate="tada" src="{% static '/furryfur/assets/img/find-perfect.png' %}"></div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4 class="text-left subheading"><strong>Find The Perfect Sitter</strong></h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-left text-muted">Search, look at the pictures of the home your dog will stay in, ask the sitters questions using HouseMyDog's messaging system and read sitter reviews.</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="list-group-item timeline-inverted" data-aos="fade-left" style="margin-bottom: 20px;">
+                        <div class="timeline-image" style="background-color: rgb(18,202,214);"><img class="rounded-circle img-fluid" data-bs-hover-animate="tada" src="{% static '/furryfur/assets/img/pay&schedule.png' %}"></div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4 class="subheading"><strong>Schedule &amp; Pay Online</strong></h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-left text-muted">Make a reservation and pay online. All Reservations include Emergency Vet Care &amp; 24/7 Customer Support. You can also schedule a meet &amp; greet with your sitter before the boarding starts.</p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="list-group-item" data-aos="fade-right">
+                        <span></span>
+                        <div class="timeline-image" style="background-color: rgb(18,202,214);"><img class="rounded-circle img-fluid" data-bs-hover-animate="tada" src="{% static '/furryfur/assets/img/Safer%20hand.png' %}"></div>
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h4 class="text-left subheading"><strong>Leave Your Dog In Safe Hands</strong><br></h4>
+                           </div>
+                           <div class="timeline-body">
+                              <p class="text-left text-muted">Now that you've booked your Dog's stay you can sit back, relax, and enjoy regular text and photo updates from your sitter, knowing you are covered by the HouseMyDog Guarantee</p>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="portfolio" class="bg-light About_us">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="text-uppercase section-heading" data-aos="fade-down" style="margin-top: -105px;font-family: 'Amatic SC', cursive;">About Us</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row clearmargin clearpadding row-image-txt" style="background-color: transparent;">
+            <div data-aos="fade-right" class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6" style="background-image:url({% static 'furryfur/assets/img/office-front.jpeg' %});background-size:cover;height:400px;background-position:center;">
+               <div></div>
+            </div>
+            <div data-aos="fade-left" class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding: 20px;background-color: rgb(42,42,42);">
+               <h1>Heading</h1>
+               <hr>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel lorem a lectus finibus bibendum ut sagittis diam. Nunc egestas nulla in elit congue, id pellentesque ex semper. Aenean euismod tellus tincidunt massa eleifend, a efficitur
+                  lectus ultricies. Aliquam bibendum et leo quis consectetur. Integer consequat consequat mauris, id porttitor sem feugiat eu. Proin ac neque eu nisi viverra mattis. Curabitur molestie lectus ac sollicitudin faucibus. Duis congue ipsum
+                  eget justo egestas blandit.
+               </p>
+               <div style="text-align:center"><button class="btn btn-light btn-lg" type="button">Lorem </button></div>
+            </div>
+         </div>
+         <section style="padding-top: 0px;padding-bottom: 0px;"></section>
+      </section>
+      <section id="services" style="background-repeat: no-repeat;background-size: contain;height: 809px;">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="text-uppercase section-heading" data-aos="fade-down" style="margin-top: -100px;font-family: 'Amatic SC', cursive;">Services</h2>
+               </div>
+            </div>
+         </div>
+         <div data-aos="fade-up" class="blog-slider" style="opacity: 1;">
+            <div class="blog-slider__wrp swiper-wrapper">
+               <div class="blog-slider__item swiper-slide">
+                  <div></div>
+                  <div class="blog-slider__img" style="opacity: 1;background-repeat: no-repeat;"><img src="{% static '/furryfur/assets/img/Boarding.png' %}"></div>
+                  <div class="blog-slider__content" style="opacity: 1;margin-left: -25px;">
+                     <div class="blog-slider__title">Boarding</div>
+                     <div class="blog-slider__text">Perfect if you need overnight pet care. </div>
+                     <a class="blog-slider__button" href="#">Book Dog Boarding</a>
+                  </div>
+               </div>
+               <div class="blog-slider__item swiper-slide">
+                  <div></div>
+                  <div class="blog-slider__img"><img src="{% static '/furryfur/assets/img/House_Sitting.png' %}"></div>
+                  <div class="blog-slider__content" style="opacity: 1;margin-left: -25px;">
+                     <div class="blog-slider__title">House Sitting</div>
+                     <div class="blog-slider__text">Great if you need overnight pet or house-sitting services.
+                     </div>
+                     <a class="blog-slider__button" href="#">Book House Sitting</a>
+                  </div>
+               </div>
+               <div class="blog-slider__item swiper-slide">
+                  <div></div>
+                  <div class="blog-slider__img"><img src="{% static '/furryfur/assets/img/Day_Care.png' %}"></div>
+                  <div class="blog-slider__content" style="opacity: 1;margin-left: -25px;">
+                     <div class="blog-slider__title">Day Care</div>
+                     <div class="blog-slider__text">Daytime pet care in your sitter’s dog-friendly home. </div>
+                     <a class="blog-slider__button" href="#">Book Day Care</a>
+                  </div>
+               </div>
+               <div class="blog-slider__item swiper-slide">
+                  <div></div>
+                  <div class="blog-slider__img"><img src="{% static '/furryfur/assets/img/dog_walking_service.png' %}"></div>
+                  <div class="blog-slider__content" style="opacity: 1;margin-left: -25px;">
+                     <div class="blog-slider__title">Dog Walking</div>
+                     <div class="blog-slider__text">Whenever your dog needs a walk. </div>
+                     <a class="blog-slider__button" href="#">Book A Walk</a>
+                  </div>
+               </div>
+               <div class="blog-slider__pagination"></div>
+            </div>
+         </div>
+      </section>
+      <section id="contact" style="background-image:url({% static '/furryfur/assets/img/map-image.png' %});">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="text-uppercase section-heading">Contact Us</h2>
+                  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <form id="contactForm" name="contactForm" novalidate="novalidate">
+                     <div class="form-row">
+                        <div class="col col-md-6">
+                           <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                           <div class="form-group"><input class="form-control" type="email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                           <div class="form-group"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form-group"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
+                        </div>
+                        <div class="col">
+                           <div class="clearfix"></div>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                           <div id="success"></div>
+                           <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer id="dk-footer" class="dk-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 col-lg-4">
+                  <div class="dk-footer-box-info">
+                     <a href="index.html" class="footer-logo">
+                     <img src="{% static '/furryfur/assets/img/logo.jpeg' %}" alt="footer_logo" class="img-fluid">
+                     </a>
+                     <p class="footer-info-text">
+                        Short Intro About FurryFur
+                     </p>
+                     <div class="footer-social-link">
+                        <h3>Follow us</h3>
+                        <ul>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-facebook"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-twitter"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-google-plus"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-linkedin"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-instagram"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- End Social link -->
+                  </div>
+                  <!-- End Footer info -->
+                  <div class="footer-awarad">
+                     <!--                         <img src="images/icon/best.png" alt="">
+                        <p>Best Design Company 2019</p> -->
+                  </div>
+               </div>
+               <!-- End Col -->
+               <div class="col-md-12 col-lg-8">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="contact-us">
+                           <div class="contact-icon">
+                              <i class="fa fa-map-o" aria-hidden="true"></i>
+                           </div>
+                           <!-- End contact Icon -->
+                           <div class="contact-info">
+                              <h3>Address_1</h3>
+                              <p>Address_2</p>
+                           </div>
+                           <!-- End Contact Info -->
+                        </div>
+                        <!-- End Contact Us -->
+                     </div>
+                     <!-- End Col -->
+                     <div class="col-md-6">
+                        <div class="contact-us contact-us-last">
+                           <div class="contact-icon">
+                              <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                           </div>
+                           <!-- End contact Icon -->
+                           <div class="contact-info">
+                              <h3>1234567890</h3>
+                              <p>Give us a call</p>
+                           </div>
+                           <!-- End Contact Info -->
+                        </div>
+                        <!-- End Contact Us -->
+                     </div>
+                     <!-- End Col -->
+                  </div>
+                  <!-- End Contact Row -->
+                  <div class="row">
+                     <div class="col-md-12 col-lg-6">
+                        <div class="footer-widget footer-left-widget">
+                           <div class="section-heading">
+                              <h3>Useful Links</h3>
+                              <span class="animate-border border-black"></span>
+                           </div>
+                           <ul>
+                              <li>
+                                 <a href="#portfolio">About us </a>&nbsp
+                              </li>
+                              <li>
+                                 <a href="#services">Services</a>
+                              </li>
+                              <!--                                     <li>
+                                 <a href="#">Projects</a>
+                                 </li> -->
+                              <li>
+                                 <a href="#">Our Team</a>
+                              </li>
+                           </ul>
+                           <ul>
+                              <li>
+                                 <a href="#contact">Contact us </a>&nbsp
+                              </li>
+                              <li>
+                                 <!--                                         <a href="#">Blog</a> -->
+                              </li>
+                              <li>
+                                 <a href="#">Testimonials </a>&nbsp
+                              </li>
+                              <li>
+                                 <a href="#">Faq</a>
+                              </li>
+                           </ul>
+                        </div>
+                        <!-- End Footer Widget -->
+                     </div>
+                     <!-- End col -->
+                     <div class="col-md-12 col-lg-6">
+                        <div class="footer-widget">
+                           <div class="section-heading">
+                              <h3>Subscribe</h3>
+                              <span class="animate-border border-black"></span>
+                           </div>
+                           <p>
+                              <!-- Don��t miss to subscribe to our new feeds, kindly fill the form below. -->
+                              Reference site about Lorem Ipsum, giving information on its origins, as well.
+                           </p>
+                           <form action="#">
+                              <div class="form-row">
+                                 <div class="col dk-footer-form">
+                                    <input type="email" class="form-control" placeholder="Email Address" >
+                                    <button type="submit">
+                                    <i class="fa fa-send"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                           </form>
+                           <!-- End form -->
+                        </div>
+                        <!-- End footer widget -->
+                     </div>
+                     <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+               </div>
+               <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+         </div>
+         <!-- End Contact Container -->
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <span>Copyright © 2019</span>
+                  </div>
+                  <!-- End Col -->
+                  <div class="col-md-6">
+                     <div class="copyright-menu">
+                        <ul>
+                           <li>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <a href="#">Terms</a>
+                           </li>
+                           <li>
+                              <a href="#">Privacy Policy</a>
+                           </li>
+                           <li>
+                              <a href="#contact">Contact</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- End col -->
+               </div>
+               <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+         </div>
+         <!-- End Copyright -->
+         <!-- Back to top -->
+         <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+            <i class="fa fa-angle-up"></i>
+            </button>
+         </div>
+         <!-- End Back to top -->
+      </footer>
+      <script src="{% static 'furryfur/assets/js/jquery.min.js' %}"></script>
+      <script src="{% static 'furryfur/assets/bootstrap/js/bootstrap.min.js' }"></script>
+      <script src="{% static 'furryfur/assets/js/bs-init.js' %}"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/lightpick@1.3.4/lightpick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <script src="{% static 'furryfur/assets/js/Date-Picker-From-and-To.js' %}"></script>
+      <script src="{% static 'furryfur/assets/js/Nav_bar.js' %}"></script>
+      <script src="{% static 'furryfur/assets/js/Find_Sitter_without_login.js' %}"></script>
+      <script src="{% static 'furryfur/assets/js/Find_sitter.js' %}"></script>
+      <script src="{% static 'furryfur/assets/js/form.js' %}"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+      <script src="{% static 'furryfur/assets/js/Login_Signup.js' %}"></script>
+      <script src="{% static 'furryfur/assets/js/Services_Swiper-Slider-Card.js' %}"></script>
+      <script src="{% static 'furryfur/assets/js/navbar.js' %}"></script>
+   </body>
+</html>

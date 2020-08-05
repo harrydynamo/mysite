@@ -1,0 +1,1054 @@
+.pet-select {
+  text-align: center;
+}
+
+.pet-select > div {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.service-type {
+  text-align: center;
+  display: inline-grid;
+  transition-property: all;
+  transition-duration: 10s;
+}
+
+.dog-service-type div {
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.cat-service-type div {
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.selected {
+  border-left: 2px solid #12cad6;
+  border-right: 2px solid #12cad6;
+  color: white;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+/* ul {
+    list-style-type: none;
+    padding: 0%;
+} */
+
+.container li {
+  display: inline-block;
+}
+
+input[type="checkbox"][id^="myCheckbox"] {
+  display: none;
+}
+
+/* label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+} */
+
+input[type="checkbox"]:checked + label {
+  color: #212529;
+}
+
+/* :checked + label:before {
+    content: "✓";
+    background-color: #12cad6;
+    transform: scale(1);
+} */
+
+input[type="checkbox"]:checked + label img {
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.form-control {
+  margin-top: 5%;
+}
+
+.one-repeat-weekly {
+  cursor: pointer;
+  display: inline-block;
+  border: 1.6px outset #12cad6;
+  padding: 1% 1.5% 1% 1.5%;
+  margin-top: 5%;
+  border-radius: 6px;
+}
+
+input[type=radio]:checked + label {
+}
+
+.dog-weight-container [type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.dog-weight-container [type=radio] + img {
+  cursor: pointer;
+}
+
+.dog-weight-container [type=radio]:checked + img {
+  border-left: 2px solid #12cad6;
+  border-right: 2px solid #12cad6;
+}
+
+/* Stuff after this is only to make things more pretty */
+
+/* Medium devices (tablets, 1200px and up) */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 583px;
+    padding-right: 0px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dog-service-type {
+    margin-left: -55.72px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dog-service-type div {
+    display: inline-block;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 59.5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.correct_space {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.correct_space div.date div {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cat-service-type div {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 30px;
+    padding: 6px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dog-weight-container {
+    margin-left: -100px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dog-weight-container ul {
+  }
+}
+
+@media (min-width: 1200px) {
+  .dog-weight-container ul li {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dog-walking div {
+    display: inline-block;
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .one-repeat-weekly {
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead .intro-text {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width:1200px) {
+  .repeat-weekly ul {
+    margin-left: -10px;
+    margin-top: 8px;
+    margin-bottom: 0%;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width:1200px) {
+  .repeat-weekly ul li {
+  }
+}
+
+@media (min-width: 1200px) {
+  .postcode {
+    width: 175px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .datepicker {
+    width: 155px;
+    margin-right: 11px;
+    margin-left: 2px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #datePickerFrom3 {
+    width: 226px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #datePickerTo3 {
+    width: 226px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #datePickerFrom4 {
+    width: 226px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #datePickerTo4 {
+    width: 226px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icon {
+    padding: 10px;
+    color: #12cad6;
+    margin-left: -63px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icon2 {
+    padding: 10px;
+    color: #12cad6;
+    text-align: center;
+    margin-left: -78px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 583px;
+    padding-right: 0px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .dog-service-type {
+    margin-left: -55.72px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dog-service-type div {
+    display: inline-block;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 59.5px;
+  }
+}
+
+@media (min-width: 992px) {
+  div.correct_space {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  div.correct_space div.date div {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  .cat-service-type div {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 30px;
+    padding: 6px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dog-weight-container {
+    margin-left: -100px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dog-weight-container ul {
+  }
+}
+
+@media (min-width: 992px) {
+  .dog-weight-container ul li {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dog-walking div {
+    display: inline-block;
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 992px) {
+  .one-repeat-weekly {
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead .intro-text {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width:992px) {
+  .repeat-weekly ul {
+    margin-left: -10px;
+    margin-top: 8px;
+    margin-bottom: 0%;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width:992px) {
+  .repeat-weekly ul li {
+  }
+}
+
+@media (min-width: 992px) {
+  .postcode {
+    width: 175px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .datepicker {
+    width: 155px;
+    margin-right: 11px;
+    margin-left: 2px;
+  }
+}
+
+@media (min-width: 992px) {
+  #datePickerFrom3 {
+    width: 226px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  #datePickerTo3 {
+    width: 226px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  #datePickerFrom4 {
+    width: 226px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  #datePickerTo4 {
+    width: 226px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon {
+    padding: 10px;
+    color: #12cad6;
+    margin-left: -63px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon2 {
+    padding: 10px;
+    color: #12cad6;
+    text-align: center;
+    margin-left: -78px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 583px;
+    padding-right: 0px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-service-type {
+    margin-left: -55.72px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-service-type div {
+    display: inline-block;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 59.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  div.correct_space {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  div.correct_space div.date div {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .cat-service-type div {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 30px;
+    padding: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-weight-container {
+    margin-left: -100px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-weight-container ul {
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-weight-container ul li {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-walking div {
+    display: inline-block;
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .one-repeat-weekly {
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width:768px) {
+  .repeat-weekly ul {
+    margin-left: -10px;
+    margin-top: 8px;
+    margin-bottom: 0%;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width:768px) {
+  .repeat-weekly ul li {
+  }
+}
+
+@media (min-width: 768px) {
+  .postcode {
+    width: 175px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .datepicker {
+    width: 155px;
+    margin-right: 11px;
+    margin-left: 2px;
+  }
+}
+
+@media (min-width: 768px) {
+  #datePickerFrom3 {
+    width: 226px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  #datePickerTo3 {
+    width: 226px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  #datePickerFrom4 {
+    width: 226px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  #datePickerTo4 {
+    width: 226px;
+    margin-left: 39px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon {
+    padding: 10px;
+    color: #12cad6;
+    margin-left: -63px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon2 {
+    padding: 10px;
+    color: #12cad6;
+    text-align: center;
+    margin-left: -78px;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .card {
+    width: 60%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .aa {
+    margin-top: 2%;
+    width: 35%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .bb {
+    margin-top: 2%;
+    width: 35%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .cc {
+    width: 35%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .dd {
+    width: 35%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .dog-service-type div {
+    display: inline-table;
+    margin: 3%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  div.correct_space {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  div.correct_space div.date div {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .cat-service-type div {
+    display: inline-block;
+    margin: 3%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .dog-weight-container {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .dog-weight-container ul {
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .dog-weight-container ul li {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .one-repeat-weekly {
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  header.masthead .intro-text {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) and (min-width:577px) {
+  .repeat-weekly ul {
+    margin-left: -12.63%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 577px) {
+  .postcode {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 577px) {
+  .datepicker {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 577px) {
+  .icon {
+    padding: 10px;
+    color: #12cad6;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 577px) {
+  .icon2 {
+    padding: 10px;
+    color: #12cad6;
+    text-align: center;
+    margin-left: -101px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .card {
+    width: 60%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .aa {
+    margin-top: 3%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .bb {
+    margin-top: 3%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .cc {
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .dd {
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .dog-service-type div {
+    display: inline-table;
+    margin: 3%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  div.correct_space {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  div.correct_space div.date div {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .cat-service-type div {
+    display: inline-block;
+    margin: 3%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .dog-weight-container {
+    margin-left: -40px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .dog-weight-container ul {
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .dog-weight-container ul li {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .one-repeat-weekly {
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  header.masthead .intro-text {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .repeat-weekly ul {
+    margin-left: -12.63%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .postcode {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .datepicker {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .icon {
+    padding: 10px;
+    color: #12cad6;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 361px) {
+  .icon2 {
+    padding: 10px;
+    color: #12cad6;
+    text-align: center;
+    margin-left: -101px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .card {
+    width: 72%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 14%;
+  }
+}
+
+@media (max-width: 360px) {
+  .aa {
+    margin-top: 10px;
+    float: left;
+    width: 102px;
+  }
+}
+
+@media (max-width: 360px) {
+  .bb {
+    margin-top: 10px;
+    float: right;
+    width: 102px;
+  }
+}
+
+@media (max-width: 360px) {
+  .cc {
+    margin-top: 5px;
+    float: left;
+    width: 102px;
+  }
+}
+
+@media (max-width: 360px) {
+  .dd {
+    margin-top: 5px;
+    float: right;
+    width: 102px;
+  }
+}
+
+@media (max-width: 360px) {
+  .dog-service-type div {
+    display: inline-table;
+  }
+}
+
+@media (max-width: 360px) {
+  div.correct_space {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 360px) {
+  div.correct_space div.date div {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 360px) {
+  .cat-service-type div {
+    display: inline-table;
+  }
+}
+
+@media (max-width: 360px) {
+  .dog-weight-container {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .dog-weight-container ul {
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 360px) {
+  .dog-weight-container ul li {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 360px) {
+  .one-repeat-weekly {
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 360px) {
+  header.masthead .intro-text {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .postcode {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 360px) {
+  .repeat-weekly ul {
+    margin-left: -18%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+}
+
+@media (max-width: 360px) {
+  .datepicker {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 360px) {
+  .icon {
+    padding: 10px;
+    color: #12cad6;
+    margin-left: -38%;
+  }
+}
+
+@media (max-width: 360px) {
+  .icon2 {
+    padding: 10px;
+    color: #12cad6;
+    text-align: center;
+    margin-left: -101px;
+  }
+}
+
+.card {
+  background-color: rgba(105,105,105, .9);
+}
+
+.caption {
+  display: block;
+  color: black;
+  font-size: 12px;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-field {
+  text-align: center;
+}
+
