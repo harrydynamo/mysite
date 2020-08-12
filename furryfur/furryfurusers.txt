@@ -1,0 +1,18 @@
+// Users
+Jack William jackwilliam@mail.com 12345 1 ** 5 Upper Arundel St empty PO1 1JU Hampshire Portsmouth
+Phil Cammaron philcammaron@mail.com 12345 1 ** 3 Grove Rd S empty PO5 3QR Hampshire Portsmouth
+Lindi Laura lindilaura@mail.com 12345 1 ** 54 Magdala Rd empty PO6 2QQ Hampshire Cosham
+
+street / empty / postcode / country / city
+
+dog / cat / boarding / house_sitting / doggy_day_care / dog_walking / boarding_price / house_sitting_price / doggy_day_care_price / dog_walking_price / contact_info / dog_size1 / dog_size2 / dog_size3 / dog_size4 / description
+
+//PetSitter
+Emma Watson emmawatson@mail.com 12345 0 ** Darwin House / empty / PO1 1JW / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Gina Brian ginabrian@mail.com 12345 0 ** 40-2 Temple St / empty / PO1 1EB / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Lucy Blake lucyblake@mail.com 12345 0 ** 52-51 April Square / empty / PO1 4EF / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Christina Fernandes christinafernandes@mail.com 12345 0 ** 3-33 Pelham Rd / empty / PO5 3DT / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Lee George leegeorge@mail.com 12345 0 ** 33B St Edwards Rd / empty / PO5 3DH / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Natalie Morris nataliemorris@mail.com 12345 0 ** 1-7 Manor Mews / empty / PO6 2EL / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Becca Marry beccamarry@mail.com 12345 0 ** 12A Prinsted Cres / empty / PO6 1NS / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
+Tracey Umay traceyumay@mail.com 12345 0 ** 19 Colwell Rd / empty / PO6 3AB / Hampshire / Portsmouth ** 1 / 0 / 1 / 1 / 1 / 1 / 200 / 200 / 200 / 200 / 8789898789 / 1 / 1 / 1 / dog_size4 / empty
